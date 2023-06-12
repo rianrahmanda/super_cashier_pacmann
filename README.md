@@ -75,9 +75,30 @@ Aplikasi ini dibuat untuk melakukan pembelian secara mandiri dengan memasukkan i
 
 # Ringkasan Function dan Attribute
 **Attributes** pada **transaction.py**:
-**user_id (str):** ID pengguna yang terkait dengan transaksi.
-**items (list):** Daftar item dalam transaksi.
-**transaction_history (list):** Riwayat transaksi.
-**final_transaction (dict):** Dict yang mewakili transaksi terakhir.
-**conn (sqlite3.Connection):** Koneksi ke database SQLite.
-**cursor (sqlite3.Cursor):** Objek cursor untuk mengeksekusi kueri database.
+- **user_id (str):** ID pengguna yang terkait dengan transaksi.
+- **items (list):** Daftar item dalam transaksi.
+- **transaction_history (list):** Riwayat transaksi.
+- **final_transaction (dict):** Dict yang mewakili transaksi terakhir.
+- **conn (sqlite3.Connection):** Koneksi ke database SQLite.
+- **cursor (sqlite3.Cursor):** Objek cursor untuk mengeksekusi kueri database.\
+
+**Method** pada **transaction.py**:
+- **init(self, user_id):** Inisialisasi objek transaksi baru.
+- **create_table(self):** Membuat tabel 'transactions' jika belum ada di database.
+- **add_item(self, item):** Menambahkan item ke transaksi.
+- **update_item(self, item_name):** Perbarui item pada transaksi.
+- **delete_item(self, item_name):** Menghapus item dari transaksi.
+- **reset_transaction(self):** Reset transaksi dengan menghapus seluruh item.
+- **check_order(self):** Tampilkan item pada transaksi.
+- **save_transaction_to_db(self):** Simpan transaksi saat ini ke database.
+- **save_final_transaction_to_db(self):** Simpan transaksi akhir ke database.
+- **total_price(self):** Hitung total transaksi dan potongan sesuai dengan ketentuan.
+- **view_transaction_history(self):** Tampilkan history transaksi.
+- **save_transaction(self):** Simpan transaksi ke database.
+- **close_connection(self):** Tutup koneksi ke database.
+
+# Flowchart
+
+# Demonstrasi Program
+
+# Kesimpulan
