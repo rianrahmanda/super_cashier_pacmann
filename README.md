@@ -72,3 +72,12 @@ Aplikasi ini dibuat untuk melakukan pembelian secara mandiri dengan memasukkan i
 - Fungsi **view_database** untuk menampilkan isi tabel "transactions" dari database.
 - Mengambil data transaksi dari tabel "transactions" menggunakan kueri SELECT.
 - Menampilkan informasi transaksi, termasuk *ID transaksi*, *ID pengguna*, *timestamp*, *daftar item*, *jumlah item*, *harga per item*, *total harga*, dan *total belanja*.
+
+# Ringkasan Function dan Attribute
+**Attributes** pada **transaction.py**:
+**user_id (str):** ID pengguna yang terkait dengan transaksi.
+**items (list):** Daftar item dalam transaksi.
+**transaction_history (list):** Riwayat transaksi.
+**final_transaction (dict):** Dict yang mewakili transaksi terakhir.
+**conn (sqlite3.Connection):** Koneksi ke database SQLite.
+**cursor (sqlite3.Cursor):** Objek cursor untuk mengeksekusi kueri database.
