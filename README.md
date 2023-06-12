@@ -6,7 +6,7 @@ Aplikasi ini dibuat untuk melakukan pembelian secara mandiri dengan memasukkan i
 2. "main_cashier.py" untuk menjalankan aplikasi main cashier
 3. "view_database.py" untuk melihat isi database yang berisi histori transaksi pelanggan. fitur ini dijalankan oleh pemilik usaha
 
-**Requirements/Objectives**\
+# Requirements/Objectives
 **Objective** program **transaction.py**:
 - Membuat objek transaksi dengan inisialisasi ID pengguna.
 - Menambahkan, memperbarui, menghapus, dan menampilkan item dalam transaksi.
