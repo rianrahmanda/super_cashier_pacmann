@@ -98,7 +98,26 @@ Aplikasi ini dibuat untuk melakukan pembelian secara mandiri dengan memasukkan i
 - **close_connection(self):** Tutup koneksi ke database.
 
 # Flowchart
-
 # Demonstrasi Program
+Setelah program diunduh, harus disimpan kedalam direktori yang sama:\
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/ed281a66-194f-427b-b2a4-4aa938812f29)
+
+Buka **command prompt** dengan cara mengklik simbol **windows** dan ketikkan cmd kemudian tekan *enter*
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/af2a2453-6bf4-473d-bb0b-1d4d3d06b1b0)
+
+Akses direktori tempat ketiga file **super_cashier** disimpan. Karena file yang disimpan (dalam kasus saya) pada direktori D (dapat dilihat pada gambar pertama), maka pada **command prompt** nya ketikkan perintah di bawah ini secara berurutan:
+- **D:**, kemudian tekan *enter*, maka tampilannya akan seperti gambar di bawah ini
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/f479f9b4-ac4e-4d39-a5c2-a6b548e7413d)
+
+- **cd "pacmann academy"**, kemudian tekan *enter* (tampilan)
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/b99f0ea1-7d81-4d23-abe1-c3d724671929)
+
+- **cd "final project python I"**, kemudian tekan *enter* (tampilan)
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/0b9b63b3-2869-4ef5-88b3-13d17bf58ef1)
+
+- **python main_cashier.py**, kemudian tekan *enter* (tampilan)
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/f92cfd43-f75b-4466-be66-a6c38fd48195)
+
+
 
 # Kesimpulan
