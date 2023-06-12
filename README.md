@@ -7,7 +7,7 @@ Aplikasi ini dibuat untuk melakukan pembelian secara mandiri dengan memasukkan i
 3. "view_database.py" untuk melihat isi database yang berisi histori transaksi pelanggan. fitur ini dijalankan oleh pemilik usaha
 
 **Requirements/Objectives**\
-Objective program **transaction.py**:
+**Objective** program **transaction.py**:
 - Membuat objek transaksi dengan inisialisasi ID pengguna.
 - Menambahkan, memperbarui, menghapus, dan menampilkan item dalam transaksi.
 - Menghitung total harga transaksi dengan menerapkan potongan harga sesuai dengan ketentuan.
@@ -32,3 +32,43 @@ Objective program **transaction.py**:
 - Metode **view_transaction_history** untuk menampilkan riwayat transaksi dari database.
 - Metode **save_transaction** untuk menyimpan transaksi ke database.
 - Metode **close_connection** untuk menutup koneksi ke database.
+
+**Objective** program **main_cashier.py**:
+- Membuat objek transaksi dengan menggunakan ID pengguna yang dimasukkan.
+- Menampilkan menu pilihan kepada pengguna.
+- Mengizinkan pengguna untuk menambahkan, memperbarui, menghapus, dan menampilkan item dalam transaksi.
+- Menghitung total harga transaksi.
+- Mereset transaksi jika pengguna memilih opsi tersebut.
+- Menyimpan transaksi akhir ke database saat pengguna memilih keluar.
+- Menutup koneksi ke database setelah selesai.
+- Dengan memenuhi semua requirements dan mencapai tujuan yang dijelaskan di atas, kedua file ini bekerja bersama untuk memungkinkan pengguna melakukan transaksi, melacak riwayat transaksi, dan menyimpan data transaksi ke database.
+
+**Requirements** program **main_cashier.py**:
+- Import modul Transaction dari file "transaction.py".
+- Meminta input User ID dari pengguna.
+- Menampilkan menu pilihan untuk kasir.
+- Menambahkan item ke transaksi.
+- Memperbarui item dalam transaksi.
+- Menghapus item dari transaksi.
+- Menampilkan item dalam transaksi.
+- Menghitung total harga transaksi.
+- Mereset transaksi dengan menghapus seluruh item.
+- Menyimpan transaksi akhir ke database.
+- Mengulang menu pilihan hingga pengguna memilih keluar.
+
+**Objective** program **view_database.py**:
+- Membuka koneksi ke database SQLite dengan menggunakan modul sqlite3.
+- Mengeksekusi kueri SELECT untuk mengambil semua data transaksi dari tabel "transactions".
+- Menggunakan perulangan untuk mengiterasi setiap data transaksi yang diperoleh.
+- Mengekstrak informasi penting seperti ID transaksi, ID pengguna, timestamp, dan daftar item dari setiap data transaksi.
+- Menghitung total harga untuk setiap transaksi dengan mengalikan jumlah item dengan harga per item.
+- Menampilkan informasi transaksi dengan menggunakan format yang sesuai.
+- Menutup koneksi ke database setelah selesai.
+- Dengan memenuhi semua requirements dan mencapai tujuan yang dijelaskan di atas, kode tersebut berfungsi untuk membuka koneksi ke database, mengambil data transaksi dari tabel "transactions", dan menampilkan informasi transaksi beserta total harga dari setiap transaksi yang ada dalam tabel.
+
+**Requirements** program **view_database.py**:
+- Koneksi ke database SQLite.
+- Tabel **transactions** dalam database yang menyimpan data transaksi.
+- Fungsi **view_database** untuk menampilkan isi tabel "transactions" dari database.
+- Mengambil data transaksi dari tabel "transactions" menggunakan kueri SELECT.
+- Menampilkan informasi transaksi, termasuk *ID transaksi*, *ID pengguna*, *timestamp*, *daftar item*, *jumlah item*, *harga per item*, *total harga*, dan *total belanja*.
