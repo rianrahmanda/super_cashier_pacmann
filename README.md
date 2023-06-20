@@ -150,9 +150,37 @@ kemudian jika diperiksa pada daftar belanja, item yang dihapus telah hilang dari
 **Test 4** \
 Setelah customer memeriksa daftar belanja nya kembali, cusotmer menyadari ada kesalahan nama barang, jumlah dan harga yang dimasukkan. Maka customer dapat memasukkan pilihan **2** pada menu utama. Kemudian customer dapat memasukkan nama item yang ingin diupdate. Selanjutnya customer dapat memasukkan nama item yang baru (jika tidak ada perubahan cukup tekan *enter* saja), jumlah item yang baru (Jika tidak ada yang berubah tekan *enter* saja), harga per item yang baru (jika tidak ada yang berubah tekan *enter* saja). \
 **expected output :** \
-![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/610282a8-de50-4730-990f-a6fac7eb2865)
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/610282a8-de50-4730-990f-a6fac7eb2865) \
+Jika customer periksa daftar belanja lagi, maka daftar belanja sudah diupdate sesuai dengan keinginan \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/c817568b-d634-4c36-a4b4-97708e626dfb) \
+Dapat dilihat dari gambar di atas, nama item dan jumlah item telah diubah melalui menu pilihan no **2**  sedangkan harga/item tetap karena customer tidak melakukan perubahan harga/item
 
+**Test 5** \
+Setelah customer memasukkan kembali item barang belanja melalui menu pilihan no **1**, customer melakukan periksa barang kembali \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/e66ad4de-b2b3-43cf-9a9a-21e1d8fe3d37) \
+Setelah melihat daftar belanja tersebut, customer ingin menghapus semua daftar belanja yang telah dimasukkan karena suatu alasan tertentu. Maka customer dapat memilih menu pilihan **6** untuk membatalkan daftar belanja (reset transaksi). Setelah itu daftar belanja akan kosong \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/a88b4645-74ca-4758-bd8c-6986d1a13b3b)
 
+**Test 6** \
+Customer kembali memasukkan item belanjaan yang baru. kemudian kembali memeriksa barang yang telah dimasukkan ke daftar belanja \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/5b517849-85dc-4bbe-b9b0-08a8902ab996) \
+Setelah memeriksa daftar belanja yang telah dimasukkan, customer melakukan pembayaran. Untuk melakukan pembayaran, customer memasukkan pilihan **5** untuk mengetahui harga yang harus di bayar. Pada aplikasi ini terdapat ketentuan besaran diskon sesuai dengan total harga pembelian. \
+Jika total harga > Rp. 200.000 maka akan mendapat diskon 5% \
+Jika total harga > Rp. 300.000 maka akan mendapat diskon 5% \
+Jika total harga > Rp. 500.000 maka akan mendapat diskon 10% \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/183cdfde-c0b6-45a3-a138-d6def27e3b16) 
+\
+Selanjutnya customer dapat keluar dari aplikasi dengan memasukkan pilihan **0**, kemudian aplikasi angka tertutup  \
+**expected output :**\
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/5af4aace-844d-475e-bbcd-3e72c9451df8)
 
-
-# Kesimpulan
+**Test 7**\
+Pemilik usaha dapat melihat seluruh aktivitas transaksi yang telah dilakukan oleh customer karena seluruh aktifitas transaksi disimpan ke dalam database. Pemilik usaha dapat menjalankan program **view_database.py** melalui command prompt
+**expected output :**\
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/ececab1a-4555-4985-8a43-00e4a6f19957) \
+Data transaksi dapat digunakan untuk menggali informasi perilaku customer dengan menggunakan pendekatan statistika ataupun machine learning.
