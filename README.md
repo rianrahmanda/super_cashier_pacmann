@@ -118,6 +118,41 @@ Akses direktori tempat ketiga file **super_cashier** disimpan. Karena file yang 
 - **python main_cashier.py**, kemudian tekan *enter* (tampilan)
 ![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/f92cfd43-f75b-4466-be66-a6c38fd48195)
 
+- Selanjutnya masukkan no ID (pada contoh ini dimasukkan angka 33), kemudian tekan *enter* (tampilan)
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/6d7c0bb9-b0ec-4b6f-9ee8-96d86420bd80)\
+pengguna dapat melakukan transaksi suai dengan pilihan yang sudah tertera
+
+- **Test 1** 
+1. customer dapat menambahkan item barang yang akan dibeli dengan cara masukkan angka **1** kemudian *enter* 
+2. Masukkan **nama item** yang akan dibeli kemudian tekan *enter*
+3. Masukkan **jumlah item** yang dibeli kemudian tekan *enter*
+4. Masukkan **harga per item** kemudian tekan *enter*\
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/b29187d3-9f41-4418-82b5-4b0001c37736)
+
+  Jika ingin memasukka item lain yang akan dibeli, ulangi langkah 1 - 4 \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/6f4be6df-cc5c-40c4-9275-ebd8ace8e347) \
+
+**Test 2** \
+Jika customer ingin memeriksa item apa saja yang sudah dimasukkan, maka dapat memasukkan angka **4** pada pilihan menu. \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/77082b57-d139-438d-a6fe-98976c3ff738)
+
+**Test 3** \
+Jika setelah memeriksa item yang sudah dimasukkan, customer merasa ada kesalahan input sehingga harus mengahapus item dari daftar yang telah dimasukkan. Maka customer dapat memasukkan pilihan **3** untuk menghapus item yang diinginkan dari daftar belanja, selanjutnya customer memasukkan nama barang yang akan dihapus dari daftar. \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/a33c54d8-732d-4364-83cf-7bddf1c666c8) \
+kemudian jika diperiksa pada daftar belanja, item yang dihapus telah hilang dari daftar \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/74f811f0-aaf0-4051-84a0-c66000746d5a)
+
+**Test 4** \
+Setelah customer memeriksa daftar belanja nya kembali, cusotmer menyadari ada kesalahan nama barang, jumlah dan harga yang dimasukkan. Maka customer dapat memasukkan pilihan **2** pada menu utama. Kemudian customer dapat memasukkan nama item yang ingin diupdate. Selanjutnya customer dapat memasukkan nama item yang baru (jika tidak ada perubahan cukup tekan *enter* saja), jumlah item yang baru (Jika tidak ada yang berubah tekan *enter* saja), harga per item yang baru (jika tidak ada yang berubah tekan *enter* saja). \
+**expected output :** \
+![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/610282a8-de50-4730-990f-a6fac7eb2865)
+
+
 
 
 # Kesimpulan
