@@ -113,6 +113,14 @@ Aplikasi ini dibuat untuk melakukan pembelian secara mandiri dengan memasukkan i
 **Flowchart delete_item** \
 ![flow_chart_transaction-Page-5](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/cd079d01-cb57-4df5-9208-5f6e9e5b7f52)
 
+**flowchart batalkan transaksi** \
+![flow_chart_transaction-Page-6](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/ac150495-ecd5-4ced-8cd4-b992641e6491)
+
+**flowchart cek order** \
+![flow_chart_transaction-Page-7](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/90869005-df14-4e61-bd6a-1e3f75251ecb)
+
+**flowchart total harga** \
+![flow_chart_transaction-Page-8](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/a36d0fd3-540a-4375-a8a3-c8211cd81700)
 
 # Demonstrasi Program
 Setelah program diunduh, harus disimpan kedalam direktori yang sama:\
