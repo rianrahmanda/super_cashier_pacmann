@@ -98,6 +98,22 @@ Aplikasi ini dibuat untuk melakukan pembelian secara mandiri dengan memasukkan i
 - **close_connection(self):** Tutup koneksi ke database.
 
 # Flowchart
+**Flowchart program utama** \
+![flow_chart_transaction-Page-1](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/4f10d196-cf90-4201-af31-598db0ca7aa5) 
+
+**Flowchart Create_Item** \
+![flow_chart_transaction-Page-3](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/b35ce5d5-38ab-4dff-987b-a1f9e4c4d0ad) 
+
+**Flowchart Add_item** \
+![flow_chart_transaction-Page-2](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/3e1644be-71af-464e-a1c3-8f172c3e8552) 
+
+**Flowchart update_item** \
+![flow_chart_transaction-Page-4 (1)](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/f7f248bb-4f65-4ade-a392-a8d189d90039)
+
+**Flowchart delete_item** \
+![flow_chart_transaction-Page-5](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/cd079d01-cb57-4df5-9208-5f6e9e5b7f52)
+
+
 # Demonstrasi Program
 Setelah program diunduh, harus disimpan kedalam direktori yang sama:\
 ![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/ed281a66-194f-427b-b2a4-4aa938812f29)
