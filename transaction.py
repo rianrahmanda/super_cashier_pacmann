@@ -62,7 +62,7 @@ class Transaction:
         item_found = False
         for item in self.items:
             if item[0] == item_name:
-                updated_name = input("Masukkan nama item yang baru: ")
+                updated_name = input("Masukkan nama item yang baru (kosongkan jika tidak ingin mengubah): ")
                 updated_qty = input("Masukkan jumlah item yang baru (kosongkan jika tidak ingin mengubah): ")
                 updated_price = input("Masukkan harga per item yang baru (kosongkan jika tidak ingin mengubah): ")
                 
@@ -119,6 +119,7 @@ class Transaction:
                 total += total_price
             print("-----------------------------------------------------------")
             print(f"Total Belanja Anda: Rp. {total}")
+            print("Apakah item pada daftar belanjaan Anda sudah benar?")
 
     def save_transaction_to_db(self):
         """
