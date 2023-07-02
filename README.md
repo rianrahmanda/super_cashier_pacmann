@@ -208,3 +208,6 @@ Pemilik usaha dapat melihat seluruh aktivitas transaksi yang telah dilakukan ole
 **expected output :**\
 ![image](https://github.com/rianrahmanda/super_cashier_pacmann/assets/51916650/ececab1a-4555-4985-8a43-00e4a6f19957) \
 Data transaksi dapat digunakan untuk menggali informasi perilaku customer dengan menggunakan pendekatan statistika ataupun machine learning.
+
+**Kesimpulan**
+Program di atas adalah sebuah program Python yang mengimplementasikan kelas Transaction untuk melakukan operasi pada transaksi. Program ini memungkinkan pengguna untuk menambah, mengupdate, menghapus, dan memeriksa item dalam transaksi, menghitung total harga belanja dengan diskon, serta melihat riwayat transaksi. Dengan program ini, pengguna dapat dengan mudah mengelola transaksi, termasuk menambah, mengupdate, menghapus, dan melihat riwayat transaksi dengan total harga belanja yang dihitung secara otomatis.
